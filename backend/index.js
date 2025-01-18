@@ -6,7 +6,7 @@ import path from "path";
 import axios from "axios";
 const server = http.createServer(app);
 
-const url='https://render-hosting-se2b.onrender.com';
+const url = "https://online-colab.onrender.com";
 const interval = 30000;
 
 function reloadWebsite(){

@@ -3,7 +3,7 @@ import io from "socket.io-client";
 import "./App.css";
 import Editor from "@monaco-editor/react";
 
-const socket = io("http://localhost:3002");
+const socket = io("https://online-colab.onrender.com");
 const App = () => {
   const [joined, setJoined] = useState(false);
   const [roomId, setRoomId] = useState("");
